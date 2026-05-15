@@ -27,7 +27,7 @@ public class StudentController {
 
 	@Autowired
 	private StudentService service;
-
+	//autowired
 	@Operation(summary = "Fetch all students", description = "Returns a list of all students")
 	@ApiResponse(responseCode = "200", description = "Students fetched successfully")
 	@GetMapping("/all")
